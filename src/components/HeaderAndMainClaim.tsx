@@ -56,7 +56,7 @@ export default function HeaderAndMainClaim() {
         {headerOpacity > 0 && (
           <Header
             opacity={headerOpacity}
-            className='absolute bottom-10'
+            className='absolute bottom-[90px]'
             clickOnLogoBehaviour='scrollUp'
             clickOnContactBehaviour='scrollDown'
           />
@@ -65,7 +65,7 @@ export default function HeaderAndMainClaim() {
         {scrollDownButtonOpacity > 0 && (
           <button
             style={{ opacity: scrollDownButtonOpacity }}
-            className='absolute bottom-12 flex max-w-[1300px] flex-col items-center gap-1 pl-6 text-white lg:gap-4 lg:pl-24'
+            className='absolute bottom-[98px] flex max-w-[1300px] flex-col items-center gap-1 pl-6 text-white lg:gap-4 lg:pl-24'
             onClick={scrollDown}
           >
             <div className='text-xs font-light [writing-mode:vertical-lr]'>
